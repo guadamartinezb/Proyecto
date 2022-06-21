@@ -1,0 +1,85 @@
+@import "../base/variables";
+@import "../base/madiaqueries.scss";
+
+#mainma {
+    .navp {
+        background-color: $back;
+        grid-area: menu;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        flex-direction: row;
+        background-image: $gradientenav;
+
+        a {
+            color: $letrasprincipales;
+            font-weight: bold;
+            font-size: x-large;
+            text-align: justify;
+            text-decoration: none;
+            margin: 7px 12px 17px 6px;
+            padding: 10px 12px 10px 65px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around
+        }
+    }
+
+    .divv {
+        .maquillajesc {
+            color: $letrasprincipales;
+            padding-left: 8px;
+            margin: 4px;
+            width: 250px;
+            height: 370px;
+            border: solid 3px $back;
+            display: inline-table;
+            text-align: center;
+            border-radius: 50px;
+
+        }
+
+        h2 {}
+
+        img {}
+
+        p {}
+
+    }
+
+    .marcasdestacadasm {
+        color: $blanco;
+        text-align: center;
+        font-size: 30px;
+        background-color: rgb(122, 122, 216);
+        grid-area: sub;
+
+    }
+
+    .divmarcas {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        grid-area: marcas;
+
+        .marcas {
+            grid-area: marcas;
+            content: 60px;
+            padding-top: 3px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            width: 180px;
+            height: 180px;
+            transition: all 2s;}
+
+            &:hover {
+                height: 200px;
+            width: 200px;
+            padding: 10px;
+            background-color: $fondomarcas; }
+        
+    }
+}

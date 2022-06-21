@@ -1,0 +1,436 @@
+/* colores*/
+#mainma .navp {
+  background-color: beige;
+  grid-area: menu;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: row;
+  background-image: linear-gradient(to top, rgb(255, 217, 223), beige);
+}
+#mainma .navp a {
+  color: rgb(122, 122, 216);
+  font-weight: bold;
+  font-size: x-large;
+  text-align: justify;
+  text-decoration: none;
+  margin: 7px 12px 17px 6px;
+  padding: 10px 12px 10px 65px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+#mainma .divv .maquillajesc {
+  color: rgb(122, 122, 216);
+  padding-left: 8px;
+  margin: 4px;
+  width: 250px;
+  height: 370px;
+  border: solid 3px beige;
+  display: inline-table;
+  text-align: center;
+  border-radius: 50px;
+}
+#mainma .marcasdestacadasm {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  background-color: rgb(122, 122, 216);
+  grid-area: sub;
+}
+#mainma .divmarcas {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  grid-area: marcas;
+}
+#mainma .divmarcas .marcas {
+  grid-area: marcas;
+  content: 60px;
+  padding-top: 3px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 180px;
+  height: 180px;
+  transition: all 2s;
+}
+#mainma .divmarcas:hover {
+  height: 200px;
+  width: 200px;
+  padding: 10px;
+  background-color: rgb(147, 147, 240);
+}
+
+/* colores*/
+main nav .nav-link {
+  color: rgb(122, 122, 216);
+  font-weight: bold;
+  font-size: x-large;
+  text-align: justify;
+  text-decoration: none;
+  margin: 7px 12px 17px 6px;
+  padding: 10px 12px 10px 65px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+main nav .bg-light {
+  --bs-bg-opacity: none;
+}
+main nav a.navbar-brand {
+  color: rgb(122, 122, 216);
+}
+main nav .justify-content-end {
+  justify-content: left;
+}
+main .container-fluid article.productoscp {
+  box-sizing: content-box;
+}
+main .container-fluid .productoscp {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  border: solid 3px pink;
+  color: rgb(122, 122, 216);
+  padding-left: 8px;
+  margin: 4px;
+  width: 250px;
+  height: 370px;
+  display: inline-table;
+  text-align: center;
+  border-radius: 50px;
+}
+main .navp {
+  background-color: beige;
+  grid-area: menu;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: row;
+  background-image: linear-gradient(to top, rgb(255, 217, 223), beige);
+}
+main .navp a {
+  color: rgb(122, 122, 216);
+  font-weight: bold;
+  font-size: x-large;
+  text-align: justify;
+  text-decoration: none;
+  margin: 7px 12px 17px 6px;
+  padding: 10px 12px 10px 65px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/* colores*/
+.main .navp {
+  background-color: beige;
+  grid-area: menu;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: row;
+  background-image: linear-gradient(to top, rgb(255, 217, 223), beige);
+}
+.main .navp a {
+  color: rgb(122, 122, 216);
+  font-weight: bold;
+  font-size: x-large;
+  text-align: justify;
+  text-decoration: none;
+  margin: 7px 12px 17px 6px;
+  padding: 10px 12px 10px 65px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.main div .principal {
+  color: rgb(122, 122, 216);
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-left: 10px;
+  padding-top: 10px;
+  margin: 5px;
+  border: solid 3px rgb(250, 206, 214);
+  width: 250px;
+  height: 370px;
+  display: inline-table;
+  align-items: stretch;
+}
+main .navp {
+  background-color: beige;
+  grid-area: menu;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: row;
+  background-image: linear-gradient(to top, rgb(255, 217, 223), beige);
+}
+main .navp a {
+  color: rgb(122, 122, 216);
+  font-weight: bold;
+  font-size: x-large;
+  text-align: justify;
+  text-decoration: none;
+  margin: 7px 12px 17px 6px;
+  padding: 10px 12px 10px 65px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+main div .productosalud {
+  color: rgb(122, 122, 216);
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  mask-repeat: repeat;
+  padding-left: 10px;
+  padding-top: 10px;
+  margin: 5px;
+  border: solid 3px rgb(250, 206, 214);
+  display: inline-table;
+  background-color: beige;
+  height: 250px;
+  border-radius: 15%;
+}
+
+.header .backprincipal {
+  color: rgb(122, 122, 216);
+  font-weight: bold;
+  text-align: center;
+  background-color: beige;
+  margin: 0px;
+  font-size: 100px;
+  font-size: 70px;
+  background-image: url("../imagenes/logo.png");
+  background-repeat: no-repeat;
+  background-size: 100px;
+  background-position: left;
+  background-attachment: fixed;
+  animation-duration: 4s;
+  animation-name: titulo;
+  animation-iteration-count: initial;
+  animation-delay: 2s;
+}
+@keyframes titulo {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 2;
+  }
+}
+.header #back {
+  margin: 0px;
+  background-image: url("../imagenes/perfumesback.jpg");
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  content: 30px 30px 30px 30px;
+}
+.header #back .tituloperfumeria {
+  font-weight: bold;
+  padding-bottom: 3px;
+  margin: 0px;
+  font-size: 50px;
+  text-align: center;
+  background-image: linear-gradient(to top, rgb(161, 161, 243), rgb(200, 200, 255));
+  animation-duration: 4s;
+  animation-name: titulo;
+  animation-iteration-count: initial;
+  animation-delay: 2s;
+}
+@keyframes titulo {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 2;
+  }
+}
+.header .maquillajesback {
+  color: rgb(122, 122, 216);
+  font-weight: bold;
+  text-align: center;
+  background-color: beige;
+  margin: 20px;
+  font-size: 50px;
+  background-image: url("../imagenes/maquillajesback.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  animation-duration: 4s;
+  animation-name: titulo;
+  animation-iteration-count: initial;
+  animation-delay: 2s;
+}
+@keyframes titulo {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 2;
+  }
+}
+.header .salud {
+  color: rgb(122, 122, 216);
+  font-weight: bold;
+  padding-left: 10px;
+  margin: 20px;
+  font-size: 50px;
+  text-align: center;
+  background-color: beige;
+  background-color: linear-gradient(to top, rgb(161, 161, 243), rgb(200, 200, 255));
+  animation-duration: 4s;
+  animation-name: titulo;
+  animation-iteration-count: initial;
+  animation-delay: 2s;
+}
+@keyframes titulo {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 2;
+  }
+}
+.header #backcp {
+  margin: 0%;
+  background-image: url("../imagenes/fondocuidadopersonal.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  padding-top: 3px;
+  border: 15px;
+}
+.header #backcp h1.titulocp {
+  font-size: 60px;
+  line-height: 4;
+  font-weight: bold;
+}
+
+.footer .footer {
+  grid-area: footer;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  text-align: end;
+}
+
+body {
+  font-family: "Roboto Flex", sans-serif;
+  font-weight: 100;
+  color: rgb(122, 122, 216);
+  text-align: left;
+  background-color: beige;
+}
+
+main #grid .navp {
+  background-color: beige;
+  grid-area: menu;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: row;
+  background-image: linear-gradient(to top, rgb(255, 217, 223), beige);
+}
+main #grid .navp a {
+  color: rgb(122, 122, 216);
+  font-weight: bold;
+  font-size: x-large;
+  text-align: justify;
+  text-decoration: none;
+  margin: 7px 12px 17px 6px;
+  padding: 10px 12px 10px 65px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+main .novedades {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  background-color: rgb(147, 147, 240);
+  padding-left: 18px;
+  padding-right: 18px;
+  grid-area: novedades;
+}
+main .carousel-inner .carousel-item {
+  width: 50%;
+  margin-right: 5%;
+  margin-left: 20%;
+}
+main .carousel-inner .carousel-item .textoh5 {
+  color: rgb(122, 122, 216);
+  font-weight: bold;
+  text-align: center;
+  font-size: x-large;
+  margin: 0%;
+}
+main .mapayform {
+  display: grid;
+  grid-template-areas: "titulo1 titulo2" "mapa formulario";
+}
+main .mapayform .mapayform h2 {
+  grid-area: titulo1;
+}
+main .mapayform .mapayform h4 {
+  grid-area: titulo2;
+}
+main .mapayform .mapayform iframe {
+  grid-area: mapa;
+}
+main .mapayform .mapayform article {
+  grid-area: formulario;
+}
+main .mapayform .mapa {
+  color: rgb(122, 122, 216);
+  font-weight: bold;
+  text-align: left;
+  padding-left: 45px;
+  grid-area: mapa;
+}
+main .mapayform h4 {
+  color: rgb(97, 165, 165);
+  text-align: left;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding-left: 10px;
+  padding-top: 10px;
+  font-size: larger;
+}
+main .mapayform .formulario {
+  color: rgb(122, 122, 216);
+  text-align: left;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding-left: 8px;
+  padding-top: 8px;
+  grid-area: formulario;
+}
+
+/*# sourceMappingURL=estilos1.css.map */

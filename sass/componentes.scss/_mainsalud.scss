@@ -1,0 +1,42 @@
+main {
+    .navp {
+        background-color: $back;
+        grid-area: menu;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        flex-direction: row;
+        background-image: $gradientenav;
+
+        a {
+            color: $letrasprincipales;
+            font-weight: bold;
+            font-size: x-large;
+            text-align: justify;
+            text-decoration: none;
+            margin: 7px 12px 17px 6px;
+            padding: 10px 12px 10px 65px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around
+        }
+    }
+
+    div {
+        .productosalud {
+            color: $letrasprincipales;
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            mask-repeat: repeat;
+            padding-left: 10px;
+            padding-top: 10px;
+            margin: 5px;
+            border: solid 3px $bordes;
+            display: inline-table;
+            background-color: $back;
+            height: 250px;
+            border-radius: 15%;
+        }
+    }
+}

@@ -1,0 +1,103 @@
+main {
+    #grid {
+        .navp {
+            background-color: $back;
+            grid-area: menu;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            flex-direction: row;
+            background-image: $gradientenav;
+
+            a {
+                color: $letrasprincipales;
+                font-weight: bold;
+                font-size: x-large;
+                text-align: justify;
+                text-decoration: none;
+                margin: 7px 12px 17px 6px;
+                padding: 10px 12px 10px 65px;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-around
+            }
+        }
+    }
+
+    .novedades {
+        color: $blanco;
+        text-align: center;
+        font-size: 40px;
+        background-color: $fondomarcas;
+        padding-left: 18px;
+        padding-right: 18px;
+        grid-area: novedades;
+
+    }
+
+    .carousel-inner .carousel-item {
+        width: 50%;
+        margin-right: 5%;
+        margin-left: 20%;
+
+        .textoh5 {
+            color: $letrasprincipales;
+            font-weight: bold;
+            text-align: center;
+            font-size: x-large;
+            margin: 0%;
+
+        }
+
+    }
+
+    .mapayform {
+        display: grid;
+        grid-template-areas: "titulo1 titulo2"
+            "mapa formulario";
+
+        .mapayform h2 {
+            grid-area: titulo1;
+        }
+
+        .mapayform h4 {
+            grid-area: titulo2;
+        }
+
+        .mapayform iframe {
+            grid-area: mapa;
+        }
+
+        .mapayform article {
+            grid-area: formulario;
+
+        }
+
+        .mapa {
+            color: $letrasprincipales;
+            font-weight: bold;
+            text-align: left;
+            padding-left: 45px;
+            grid-area: mapa;
+        }
+
+        h4 {
+            color: rgb(97, 165, 165);
+            text-align: left;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            padding-left: 10px;
+            padding-top: 10px;
+            font-size: larger;
+        }
+
+        .formulario {
+            color: $letrasprincipales;
+            text-align: left;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            padding-left: 8px;
+            padding-top: 8px;
+            grid-area: formulario;
+        }
+    }
+}

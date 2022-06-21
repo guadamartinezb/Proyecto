@@ -1,0 +1,46 @@
+@import "../base/variables";
+@import "../base/madiaqueries.scss";
+
+.main {
+    .navp {
+        background-color: $back;
+        grid-area: menu;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        flex-direction: row;
+        background-image: $gradientenav;
+        a { 
+            color: $letrasprincipales;
+            font-weight: bold;
+            font-size: x-large;
+            text-align: justify;
+            text-decoration: none;
+            margin: 7px 12px 17px 6px;
+            padding: 10px 12px 10px 65px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around
+
+        }
+    }
+
+    div {
+        .principal { 
+            color: $letrasprincipales;
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            padding-left: 10px;
+            padding-top: 10px;
+            margin: 5px;
+            border: solid 3px $bordes;
+            width: 250px;
+            height: 370px;
+            display: inline-table;
+            align-items: stretch;
+           
+
+        }
+    }
+}
